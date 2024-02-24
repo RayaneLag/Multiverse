@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Spider-verse</title>
+  </head>
+  <body>
+    <!-- Nav section  -->
+    <div id="overlay"></div>
+    <div class="container">
+      <div class="nav">
+        <div class="logo">
+          <img
+            src="images/logo-spider.png"
+            alt="logo"
+            width="75px"
+            height="75px"
+            id="logo"
+          />
+        </div>
+        <div class="list">
+          <a href="/">The Web</a>
+          <a href="/">Multiverse Explorer</a>
+          <a href="/">Spider Origins</a>
+          <a href="/">Reach Spider</a>
+        </div>
+        <div id="clickIndicator"></div>
+      </div>
+      <!-- hero section -->
+      <div class="section1">
+        <div class="section1-container">
+          <div class="alpha">
+            <div class="pic">
+              <div class="beta">
+                <img
+                  src="https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/e9f660b1c7f98f64e39161b70a18b4bf.jpg"
+                  alt="heroPic"
+                  id="img"
+                />
+                <div class="clickMe"><p id="myP">"ClickMe"</p></div>
+              </div>
+              <video src="images/spider.mp4" controls muted id="vid"></video>
+            </div>
+            <div class="hero">
+              <h1 id="myh1">
+                "Should We Believe in the Existence of the Multiverse?"
+              </h1>
+              <div class="buttons">
+                <button id="yesButton">Yes</button>
+                <button id="mybtn">No</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
